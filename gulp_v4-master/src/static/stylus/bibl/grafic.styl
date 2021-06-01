@@ -1,0 +1,69 @@
+.grafic
+    position relative
+    &__block
+        display flex
+        justify-content: space-between
+
+    &__col
+        position relative
+        z-index 20
+        max-width: 470px
+        width 43%
+
+        &__title
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 50px;
+            color $blue
+            width: 80%
+
+            &__text
+                color $or
+
+        &__des
+            font-size: 15px
+            line-height: 28px
+            letter-spacing: 0.5px
+            color: $blue-1 
+            margin-bottom 40px
+
+
+        &__btn
+            background-color $or
+            color $white
+            box-shadow -11.09px 18.13px 36.6483px rgba(242, 153, 74, .13);
+
+    &__block-img
+        position: relative
+        z-index 15
+        max-width 442px
+        width 41%
+
+        &__point, &__graf, &__graf-svg
+            position absolute
+
+        &__graf
+            left: 0
+            top: 17px
+            z-index 4
+            max-width: 232px
+            width 53%
+
+        &__people
+            position relative
+            margin-left: 108px    
+            z-index 2
+            max-width: 287px
+            width 65%
+
+        &__graf-svg
+            left: 143px
+            bottom 0
+            z-index: 4
+            top: calc(100% - 55px)
+
+        &__point
+            right -9px
+            bottom -44px
+            z-index 1
+       

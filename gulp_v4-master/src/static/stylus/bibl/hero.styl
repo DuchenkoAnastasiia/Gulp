@@ -1,0 +1,95 @@
+.hero
+    position relative
+    min-height 100vh
+    &__col
+        width 48%
+        height 100%
+        padding-top 250px
+
+        &__title
+            font-weight bold
+            font-size 44px
+            line-height (50 / 44)
+            color $blue
+            background-color transparent
+            margin 0 0 19px
+        &__des
+            font-size: 18px;
+            line-height: (22 / 18)
+            color: #8476AA;
+            width 75%
+            margin 0 0 40px
+
+        &__block-btn
+            padding-top: 20px
+            margin-left -20px
+            display: block
+
+
+            & > a 
+                border 1px solid $or
+                box-sizing border-box
+                border-radius 4px
+                font-size 12px
+                font-weight 20 / 12
+                text-align center
+                letter-spacing 2px
+                text-transform uppercase
+                color $or
+                transition all .3s
+                padding: 14px 30px
+
+                &:last-child
+                    padding: 14px 57px
+                    margin-left: 20px
+                
+                &:last-child:hover
+                    background-color $or
+                    color $white
+
+
+                &:first-child
+                    margin-left 20px
+                    color $white
+                    background-color $or
+                    box-shadow -11.09px 18.13px 36.6483px rgba(242, 153, 74, .13);
+
+                    &:hover
+                        background-color $orHover
+
+    &__img
+        position absolute
+        right: 0
+        bottom 0
+        max-width 2000px
+        width 50% 
+
+        
+
+    &__video
+        display: flex
+        align-items: flex-start
+        padding-top 60px
+
+        &__img
+            background: $darkblue 
+            text-align: center
+            border-radius: 4px
+            padding: 20px 50px
+        
+        &__text
+            padding-left: 20px
+            margin-top: -15px
+
+            &__title
+                font-size: 16px
+                line-height: 22px
+                color: $blue-1
+                
+            &__title1
+                font-size: 14px
+                line-height: 22px
+                color $neutral
+
+  
+        
